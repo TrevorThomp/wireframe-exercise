@@ -1,0 +1,15 @@
+#main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  padding-left: 50px;
+  background-color: grey;
+}
+
+ul li {
+  display: inline;
+  margin-left: 50px;
+  padding: 10px;
+}
+
