@@ -22,12 +22,35 @@ div {
   width: 100%;
 }
 
+#nav-img {
+  background-color: orange;
+  width: 200px;
+  height: 70px;
+}
+
+#big-box {
+  background-color: rgb(0, 255, 13);
+  width: 960px;
+  height: 450px;
+}
 
 .mid-images {
   margin: 10px;
 }
 
-#float-img {
+.mid-boxes {
+  display: inline-block;
+  height: 375px;
+  width: 300px;
+  background-color: red;
+  margin: 10px;
+}
+
+#low-box { 
+  margin: 0;
+  width: 480px;
+  height: 400px;
+  background-color: blue;
   float: left;
 }
 
