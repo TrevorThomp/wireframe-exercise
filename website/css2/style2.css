@@ -1,3 +1,4 @@
+/* Global Styling */
 ul li {
   display: inline;
   margin-left: 50px;
@@ -10,48 +11,6 @@ main {
 
 div {
   margin: 30px;
-}
-
-#main-nav {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 10px;
-  padding-left: 200px;
-  background-color: grey;
-  width: 100%;
-}
-
-#nav-img {
-  background-color: orange;
-  width: 200px;
-  height: 70px;
-}
-
-#big-box {
-  background-color: rgb(0, 255, 13);
-  width: 960px;
-  height: 450px;
-}
-
-.mid-images {
-  margin: 10px;
-}
-
-.mid-boxes {
-  display: inline-block;
-  height: 375px;
-  width: 300px;
-  background-color: red;
-  margin: 10px;
-}
-
-#low-box { 
-  margin: 0;
-  width: 480px;
-  height: 400px;
-  background-color: blue;
-  float: left;
 }
 
 footer {
@@ -77,10 +36,6 @@ p {
   font-style: italic;
 }
 
-#relative-parent {
-  position: relative;
-}
-
 button {
   position: absolute;
   top: 355px;
@@ -96,3 +51,48 @@ button:hover {
   background-color: white;
   color: black;
 }
+
+/* Class Selectors */
+.mid-boxes {
+  display: inline-block;
+  height: 375px;
+  width: 300px;
+  background-color: red;
+  margin: 10px;
+}
+
+/* ID Selectors */
+#main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  padding-left: 200px;
+  background-color: grey;
+  width: 100%;
+}
+
+#nav-img {
+  background-color: orange;
+  width: 200px;
+  height: 70px;
+}
+
+#big-box {
+  background-color: rgb(0, 255, 13);
+  width: 60em;
+  height: 28.125em;
+}
+
+#low-box { 
+  margin: 0;
+  width: 30em;
+  height: 25em;
+  background-color: blue;
+  float: left;
+}
+
+#relative-parent {
+  position: relative;
+}
+

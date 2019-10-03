@@ -1,3 +1,4 @@
+/* Global Selectors */
 ul li {
   display: inline;
   margin-left: 50px;
@@ -10,25 +11,6 @@ main {
 
 div {
   margin: 30px;
-}
-
-#main-nav {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 10px;
-  padding-left: 200px;
-  background-color: grey;
-  width: 100%;
-}
-
-
-.mid-images {
-  margin: 10px;
-}
-
-#float-img {
-  float: left;
 }
 
 footer {
@@ -54,10 +36,6 @@ p {
   font-style: italic;
 }
 
-#relative-parent {
-  position: relative;
-}
-
 button {
   position: absolute;
   top: 355px;
@@ -73,3 +51,27 @@ button:hover {
   background-color: white;
   color: black;
 }
+
+/* Class Selectors */
+.mid-images {
+  margin: 10px;
+}
+/* ID Selectors */
+#main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  padding-left: 200px;
+  background-color: grey;
+  width: 100%;
+}
+
+#float-img {
+  float: left;
+}
+
+#relative-parent {
+  position: relative;
+}
+
